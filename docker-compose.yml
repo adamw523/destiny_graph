@@ -5,6 +5,8 @@ graph:
 
 ipython:
   build: ipython/
+  environment:
+    PASSWORD: "password"
   ports:
     - "8888:8888"
   volumes:
