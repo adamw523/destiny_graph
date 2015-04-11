@@ -11,5 +11,6 @@ ipython:
     - "8888:8888"
   volumes:
     - ./notebooks:/notebooks
+    - .:/work
   links:
     - graph
