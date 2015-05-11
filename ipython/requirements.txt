@@ -1,1 +1,3 @@
+neo4jrestclient
+py2neo
 rq
